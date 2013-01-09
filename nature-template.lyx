@@ -1,0 +1,412 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass nature
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Put title here (less than 90 characters).
+\end_layout
+
+\begin_layout Author
+Aauthor
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+, Bauthor
+\begin_inset Formula $^{2}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+&
+\end_layout
+
+\end_inset
+
+ LastAuthor
+\begin_inset Formula $^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Affiliation
+Put institutions in this environment and 
+\end_layout
+
+\begin_layout Affiliation
+separate with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+item|
+\end_layout
+
+\end_inset
+
+ commands.
+\end_layout
+
+\begin_layout Abstract
+For Nature, the abstract is really an introductory paragraph set in bold
+ type.
+ This paragraph must be 
+\begin_inset Quotes eld
+\end_inset
+
+fully referenced
+\begin_inset Quotes erd
+\end_inset
+
+ and less than 180 words for Letters.
+ This is the thing that is supposed to be aimed at people from other disciplines
+ and is arguably the most important part to getting your paper past the
+ editors.
+ End this paragraph with a sentence like 
+\begin_inset Quotes eld
+\end_inset
+
+Here we show...
+\begin_inset Quotes erd
+\end_inset
+
+ or something similar.
+\end_layout
+
+\begin_layout Standard
+Then the body of the main text appears after the intro paragraph.
+ Figure environments can be left in place in the document.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+includegraphics|
+\end_layout
+
+\end_inset
+
+ commands are ignored since Nature wants the figures sent as separate files
+ and the captions are automatically moved to the end of the document (they
+ are printed out with the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+end{document}|
+\end_layout
+
+\end_inset
+
+ command.
+ However, tables must be manually moved to the end of the document, after
+ the addendum.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Each figure legend should begin with a brief title for the whole figure
+ and continue with a short description of each panel and the symbols used.
+ For contributions with methods sections, legends should not contain any
+ details of methods, or exceed 100 words (fewer than 500 words in total
+ for the whole paper).
+ In contributions without methods sections, legends should be fewer than
+ 300 words (800 words or fewer in total for the whole paper).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Another Section
+\end_layout
+
+\begin_layout Standard
+Sections can only be used in Articles.
+ Contributions should be organized in the sequence: title, text, methods,
+ references, Supplementary Information line (if any), acknowledgements,
+ interest declaration, corresponding author line, tables, figure legends.
+\end_layout
+
+\begin_layout Standard
+Spelling must be British English (Oxford English Dictionary)
+\end_layout
+
+\begin_layout Standard
+In addition, a cover letter needs to be written with the following:
+\end_layout
+
+\begin_layout Enumerate
+A 100 word or less summary indicating on scientific grounds why the paper
+ should be considered for a wide-ranging journal like 
+\shape slanted
+Nature
+\shape default
+ instead of a more narrowly focussed journal.
+\end_layout
+
+\begin_layout Enumerate
+A 100 word or less summary aimed at a non-scientific audience, written at
+ the level of a national newspaper.
+ It may be used for 
+\shape slanted
+Nature
+\shape default
+'s press release or other general publicity.
+\end_layout
+
+\begin_layout Enumerate
+The cover letter should state clearly what is included as the submission,
+ including number of figures, supporting manuscripts and any Supplementary
+ Information (specifying number of items and format).
+\end_layout
+
+\begin_layout Enumerate
+The cover letter should also state the number of words of text in the paper;
+ the number of figures and parts of figures (for example, 4 figures, comprising
+ 16 separate panels in total); a rough estimate of the desired final size
+ of figures in terms of number of pages; and a full current postal address,
+ telephone and fax numbers, and current e-mail address.
+\end_layout
+
+\begin_layout Standard
+This is the first citation
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Einstein1935"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+See 
+\shape slanted
+Nature
+\shape default
+'s website (
+\family typewriter
+\shape slanted
+http://www.nature.com/nature/submit/gta/index.html
+\family default
+\shape default
+) for complete submission guidelines.
+\end_layout
+
+\begin_layout Methods
+Put methods in here.
+ If you are going to subsection it, use 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+subsection|
+\end_layout
+
+\end_inset
+
+ commands.
+ Methods section should be less than 800 words and if it is less than 200
+ words, it can be incorporated into the main text.
+\end_layout
+
+\begin_deeper
+\begin_layout Methods Subsection
+Method subsection.
+\end_layout
+
+\begin_layout Standard
+Here is a description of a specific method used.
+ Note that the subsection heading ends with a full stop (period) and that
+ the command is 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+subsection{}|
+\end_layout
+
+\end_inset
+
+ not 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb|
+\backslash
+subsection*{}|
+\end_layout
+
+\end_inset
+
+.
+ This is the second citation
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Schrodinger1935"
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "nature-template"
+options "naturemag"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Addendum
+Put acknowledgements here.
+\end_layout
+
+\begin_layout Addendum
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[Competing Interests]
+\end_layout
+
+\end_inset
+
+ The authors declare that they have no competing financial interests.
+ 
+\end_layout
+
+\begin_layout Addendum
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[Correspondence]
+\end_layout
+
+\end_inset
+
+ Correspondence and requests for materials should be addressed to A.B.C.
+\begin_inset space ~
+\end_inset
+
+(email: myaddress@nowhere.edu).
+\end_layout
+
+\end_body
+\end_document
